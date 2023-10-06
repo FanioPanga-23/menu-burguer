@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+menu{
+    display: block;
+}
+
+#men{
+    display: none;
+}
+
+menu > ul > li{
+    display: inline-block;
+}
+
+menu > ul > li > a{
+    border-top: 0px;
+    padding: 10px;
+    background-color: #969696;
+    color: #fff;
+}
+
+menu > ul > li > a:hover{
+    background-color: #727272;
+}

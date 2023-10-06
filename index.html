@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/geral.css" media="all">
+    <link rel="stylesheet" href="estilos/restantes.css" media="screen and (min-width: 600px)">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="men" class="material-icons" onclick="sho_hid()">menu</span>
+        <menu id="burger">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+        <main>
+            <article>
+                <h2>Testando Media Query</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae illo optio aut quidem placeat hic, fuga tempora doloribus repellat nobis, doloremque deserunt distinctio labore, numquam laborum alias itaque exercitationem architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nihil voluptatibus labore minima ratione vitae natus odit iure, saepe aut. Impedit, libero assumenda ullam enim minima ipsum molestiae id nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi rerum debitis odio officia beatae nobis iure, sed amet molestiae excepturi incidunt voluptates eaque hic exercitationem! At, iste? Corrupti, sunt eligendi.</p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque libero a vel quam sint hic, voluptas accusamus ipsum doloribus ratione doloremque. Commodi, suscipit? Neque excepturi corrupti incidunt debitis, deserunt architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat minus, dolorum impedit sit repellat sunt aliquid deserunt exercitationem quod dolore rem dolorem ad iste delectus, atque ut architecto repellendus?</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ad dolores facilis! Et cum fugiat eaque eius provident veritatis, sequi est eveniet nisi. Esse est temporibus, eum quibusdam reiciendis nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos et eligendi exercitationem alias? Impedit nobis neque vitae nam. Earum, sequi repellendus? Quisquam magnam porro deserunt harum neque iste suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente enim iusto illum corrupti ad velit magni esse ullam architecto mollitia magnam, minus fuga nostrum maiores. Numquam eius incidunt maxime assumenda.</p>
+            </article>
+        </main>
+        <script>
+            function sho_hid(){
+                if(burger.style.display == 'none'){
+                    burger.style.display = 'block' 
+                }else{
+                    burger.style.display = 'none'
+                }
+            }
+        </script>
+</body>
+</html>
