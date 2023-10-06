@@ -24,3 +24,7 @@ menu > ul > li > a:hover{
     border: 1px solid #3f3f3f0c;
     box-shadow: 1px 0px 1px #0000003d;
 }
+
+main{
+    width: 768px;
+}

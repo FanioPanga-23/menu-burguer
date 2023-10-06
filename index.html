@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/geral.css" media="all">
     <link rel="stylesheet" href="estilos/restantes.css" media="screen and (min-width: 600px)">
 </head>
-<body>
+<body onresize="aumentouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="men" class="material-icons" onclick="sho_hid()">menu</span>
@@ -33,6 +33,15 @@
             </article>
         </main>
         <script>
+
+            function aumentouTamanho(){
+                if(window.innerWidth >= 600){
+                    burger.style.display = 'block'
+                }else{
+                    burger.style.display = 'none'
+                }
+            }
+
             function sho_hid(){
                 if(burger.style.display == 'none'){
                     burger.style.display = 'block' 
